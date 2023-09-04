@@ -12,7 +12,7 @@ max_line_length = 120
 max_line_length = 140
 
 [*.js]
-max_line_length = 140
+max_line_length = 120
 
 [*.cls]
 max_line_length = 140
