@@ -3,12 +3,7 @@ FullCalendar v5.11.5
 Docs & License: https://fullcalendar.io/
 (c) 2022 Adam Shaw
 */
-(function (global, factory) {
-typeof exports === 'object' && typeof module !== 'undefined' ?
-factory(exports) :
-typeof define === 'function' && define.amd ? define(['exports'], factory) :
-(global = global || self, factory(global.FullCalendar = {}));
-}(this, function (exports) {
+var FullCalendar = (function (exports) {
     'use strict';
 
     /*! *****************************************************************************
@@ -15020,4 +15015,4 @@ typeof define === 'function' && define.amd ? define(['exports'], factory) :
 
     return exports;
 
-}({})));
+}({}));
