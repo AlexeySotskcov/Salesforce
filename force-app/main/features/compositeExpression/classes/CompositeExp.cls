@@ -19,9 +19,10 @@ public abstract class CompositeExp implements Expression {
 
     public abstract Boolean evaluate();
 
-    public Boolean hasChildren {
-        get {
-            return !children.isEmpty();
-        }
-    }
+    // public Boolean hasChildren {
+    //     get {
+    //         System.debug('children length: ' + this.children?.size());
+    //         return !children.isEmpty();
+    //     }
+    // }
 }
